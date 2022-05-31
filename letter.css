@@ -1,0 +1,630 @@
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/letter-thin.ttf') format('truetype'), url('woff2/letter-thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/letter-extendedthin.ttf') format('truetype'), url('woff2/letter-extendedthin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/letter-thinoblique.ttf') format('truetype'), url('woff2/letter-thinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url('ttf/letter-thinoblique.ttf') format('truetype'), url('woff2/letter-thinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/letter-extendedthinoblique.ttf') format('truetype'), url('woff2/letter-extendedthinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	src: url('ttf/letter-extendedthinoblique.ttf') format('truetype'), url('woff2/letter-extendedthinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/letter-thinitalic.ttf') format('truetype'), url('woff2/letter-thinitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/letter-extendedthinitalic.ttf') format('truetype'), url('woff2/letter-extendedthinitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/letter-extralight.ttf') format('truetype'), url('woff2/letter-extralight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/letter-extendedextralight.ttf') format('truetype'), url('woff2/letter-extendedextralight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/letter-extralightoblique.ttf') format('truetype'), url('woff2/letter-extralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url('ttf/letter-extralightoblique.ttf') format('truetype'), url('woff2/letter-extralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/letter-extendedextralightoblique.ttf') format('truetype'), url('woff2/letter-extendedextralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	src: url('ttf/letter-extendedextralightoblique.ttf') format('truetype'), url('woff2/letter-extendedextralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/letter-extralightitalic.ttf') format('truetype'), url('woff2/letter-extralightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/letter-extendedextralightitalic.ttf') format('truetype'), url('woff2/letter-extendedextralightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/letter-light.ttf') format('truetype'), url('woff2/letter-light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/letter-extendedlight.ttf') format('truetype'), url('woff2/letter-extendedlight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/letter-lightoblique.ttf') format('truetype'), url('woff2/letter-lightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url('ttf/letter-lightoblique.ttf') format('truetype'), url('woff2/letter-lightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/letter-extendedlightoblique.ttf') format('truetype'), url('woff2/letter-extendedlightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	src: url('ttf/letter-extendedlightoblique.ttf') format('truetype'), url('woff2/letter-extendedlightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/letter-lightitalic.ttf') format('truetype'), url('woff2/letter-lightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/letter-extendedlightitalic.ttf') format('truetype'), url('woff2/letter-extendedlightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/letter-regular.ttf') format('truetype'), url('woff2/letter-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/letter-extended.ttf') format('truetype'), url('woff2/letter-extended.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/letter-oblique.ttf') format('truetype'), url('woff2/letter-oblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url('ttf/letter-oblique.ttf') format('truetype'), url('woff2/letter-oblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/letter-extendedoblique.ttf') format('truetype'), url('woff2/letter-extendedoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	src: url('ttf/letter-extendedoblique.ttf') format('truetype'), url('woff2/letter-extendedoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/letter-italic.ttf') format('truetype'), url('woff2/letter-italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/letter-extendeditalic.ttf') format('truetype'), url('woff2/letter-extendeditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/letter-medium.ttf') format('truetype'), url('woff2/letter-medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/letter-extendedmedium.ttf') format('truetype'), url('woff2/letter-extendedmedium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/letter-mediumoblique.ttf') format('truetype'), url('woff2/letter-mediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url('ttf/letter-mediumoblique.ttf') format('truetype'), url('woff2/letter-mediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/letter-extendedmediumoblique.ttf') format('truetype'), url('woff2/letter-extendedmediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	src: url('ttf/letter-extendedmediumoblique.ttf') format('truetype'), url('woff2/letter-extendedmediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/letter-mediumitalic.ttf') format('truetype'), url('woff2/letter-mediumitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/letter-extendedmediumitalic.ttf') format('truetype'), url('woff2/letter-extendedmediumitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/letter-semibold.ttf') format('truetype'), url('woff2/letter-semibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/letter-extendedsemibold.ttf') format('truetype'), url('woff2/letter-extendedsemibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/letter-semiboldoblique.ttf') format('truetype'), url('woff2/letter-semiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url('ttf/letter-semiboldoblique.ttf') format('truetype'), url('woff2/letter-semiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/letter-extendedsemiboldoblique.ttf') format('truetype'), url('woff2/letter-extendedsemiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	src: url('ttf/letter-extendedsemiboldoblique.ttf') format('truetype'), url('woff2/letter-extendedsemiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/letter-semibolditalic.ttf') format('truetype'), url('woff2/letter-semibolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/letter-extendedsemibolditalic.ttf') format('truetype'), url('woff2/letter-extendedsemibolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/letter-bold.ttf') format('truetype'), url('woff2/letter-bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/letter-extendedbold.ttf') format('truetype'), url('woff2/letter-extendedbold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/letter-boldoblique.ttf') format('truetype'), url('woff2/letter-boldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url('ttf/letter-boldoblique.ttf') format('truetype'), url('woff2/letter-boldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/letter-extendedboldoblique.ttf') format('truetype'), url('woff2/letter-extendedboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	src: url('ttf/letter-extendedboldoblique.ttf') format('truetype'), url('woff2/letter-extendedboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/letter-bolditalic.ttf') format('truetype'), url('woff2/letter-bolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/letter-extendedbolditalic.ttf') format('truetype'), url('woff2/letter-extendedbolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/letter-extrabold.ttf') format('truetype'), url('woff2/letter-extrabold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/letter-extendedextrabold.ttf') format('truetype'), url('woff2/letter-extendedextrabold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/letter-extraboldoblique.ttf') format('truetype'), url('woff2/letter-extraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url('ttf/letter-extraboldoblique.ttf') format('truetype'), url('woff2/letter-extraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/letter-extendedextraboldoblique.ttf') format('truetype'), url('woff2/letter-extendedextraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	src: url('ttf/letter-extendedextraboldoblique.ttf') format('truetype'), url('woff2/letter-extendedextraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/letter-extrabolditalic.ttf') format('truetype'), url('woff2/letter-extrabolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/letter-extendedextrabolditalic.ttf') format('truetype'), url('woff2/letter-extendedextrabolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/letter-heavy.ttf') format('truetype'), url('woff2/letter-heavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/letter-extendedheavy.ttf') format('truetype'), url('woff2/letter-extendedheavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/letter-heavyoblique.ttf') format('truetype'), url('woff2/letter-heavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('ttf/letter-heavyoblique.ttf') format('truetype'), url('woff2/letter-heavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/letter-extendedheavyoblique.ttf') format('truetype'), url('woff2/letter-extendedheavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	src: url('ttf/letter-extendedheavyoblique.ttf') format('truetype'), url('woff2/letter-extendedheavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/letter-heavyitalic.ttf') format('truetype'), url('woff2/letter-heavyitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Letter Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/letter-extendedheavyitalic.ttf') format('truetype'), url('woff2/letter-extendedheavyitalic.woff2') format('woff2');
+}
