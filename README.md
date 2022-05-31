@@ -7,3 +7,5 @@ adusjtments that were easy to do since I was working on it anyway.
 For terminals, I prefer `Iosevka Custom Extended`. The rest of my machine uses `Iosevka Custom`.
 
 I might try to make this into a package at some point.
+
+Estimated download size: 200MB.
